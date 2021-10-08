@@ -1,0 +1,447 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: "Microsoft YaHei";
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #444;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #187EC5;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.width {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.width1 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #f8f9fd;
+}
+
+
+/* 头部样式开始 */
+
+.head {
+    height: 96px;
+    border-bottom: 1px solid #ccc;
+}
+
+.head>.logo {
+    width: 366px;
+    height: 44px;
+    margin-top: 20px;
+}
+
+div>.nav>a {
+    margin-right: 20px;
+    color: #ffa100;
+    line-height: 96px;
+}
+
+div>.nav>a:hover {
+font-weight: 600;
+}
+
+
+/* 头部样式结束 */
+
+
+/*导航栏样式开始 */
+
+.ser {
+    height: 48px;
+}
+
+.ser>ul {
+    width: 100%;
+    height: 100%;
+}
+
+.ser>ul>li {
+    width: 128px;
+    height: 48px;
+    float: left;
+    background: url(../images/icosj.png) no-repeat 108px;
+}
+
+.ser>ul>li>a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 48px;
+    text-align: center;
+}
+
+.ser>ul>li>a:hover {
+    background-color: #0c67a8;
+    color: #fff;
+}
+
+
+/* 导航栏样式结束 */
+
+
+/* banner样式开始 */
+
+.banner {
+    width: 100%;
+    height: 300px;
+    background-color: #f7f7f7;
+}
+
+.banner>div.width1 {
+    height: 300px;
+}
+
+
+/* banner样式结束 */
+
+.news {
+    height: 464px;
+    margin-top: 30px;
+}
+
+.news>.left {
+    width: 560px;
+    height: 432px;
+    margin: 0 20px 0;
+}
+
+.news>.left>.icons>h2 {
+    height: 36px;
+    font-size: 18px;
+}
+
+.news>.left>.icons>a {
+    font-size: 14px;
+}
+
+.news>.left>.icons {
+    height: 36px;
+}
+
+.news>.left>.icons>.icon {
+    width: 14px;
+    height: 20px;
+    margin-top: 3px;
+    background: url(../images/icon.png) no-repeat;
+}
+
+.news>.left>.icons>h3 {
+    font-size: 18px;
+    color: #046eba;
+    margin-left: 5px;
+}
+
+.news>.left>.hot {
+    width: 560px;
+    height: 148px;
+}
+
+.news>.left>.hot>div {
+    width: 334px;
+    height: 132px;
+    margin: 0 15px 0;
+}
+
+.news>.left>.hot>div>h3 {
+    font-size: 18px;
+}
+.news>.left>.hot>div>p {
+    font-size: 14px;
+    color: #999;
+}
+
+.news>.left>ul {
+    margin-top: 25px;
+}
+
+.news>.left>ul>li>a {
+    font-size: 14px;
+    line-height: 38px;
+}
+
+.news>.left>ul>li>span {
+    float: right;
+    line-height: 34px;
+    font-size: 14px;
+    color: #999;
+}
+
+.news>.right {
+    width: 556px;
+    height: 432px;
+}
+
+.right>.icons {
+    height: 35px;
+    border-bottom: 1px dashed #999;
+}
+
+.right>.icons>.icon {
+    width: 14px;
+    height: 20px;
+    margin-top: 3px;
+    background: url(../images/icon.png) no-repeat;
+}
+
+.right>.icons>h3 {
+    font-size: 18px;
+    color: #046eba;
+    margin-left: 5px;
+}
+
+.right>.icons>a {
+    font-size: 14px;
+}
+
+.right>.rightNew {
+    width: 100%;
+    height: 432px;
+}
+
+.right>.rightNew>ul {
+    width: 100%;
+    height: 348px;
+}
+
+.right>.rightNew>ul>li {
+    width: 100%;
+    height: 76px;
+    margin-top: 20px;
+    border-bottom: 1px dashed #999;
+}
+
+.right>.rightNew>ul>li>span {
+    display: inline-block;
+    width: 66px;
+    height: 56px;
+    background-color: red;
+}
+
+.right>.rightNew>ul>li>span>div:nth-child(1) {
+    height: 24px;
+    background-color: #187ec6;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.right>.rightNew>ul>li>span>div:nth-child(2) {
+    height: 32px;
+    background-color: #dfdfdf;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+
+.right>.rightNew>ul>li>p {
+    color: #333;
+    font-size: 14px;
+    margin-left: 16px;
+}
+
+.oldNew {
+    height: 448px;
+}
+
+.oldNew>.right {
+    height: 448px;
+}
+
+.oldNew>.oldLeft {
+    width: 556px;
+    height: 100%;
+}
+
+.oldNew>.oldLeft>.icons {
+    height: 36px;
+}
+
+.oldNew>.oldLeft>.icons>.icon {
+    width: 14px;
+    height: 20px;
+    background: url(../images/icon.png) no-repeat;
+}
+
+.oldNew>.oldLeft>.icons>h3 {
+    font-size: 18px;
+    color: #046eba;
+    margin-left: 5px;
+}
+
+.oldNew>.oldLeft>.icons>a {
+    font-size: 14px;
+}
+
+.oldNew>.oldLeft>ul>li {
+    width: 262px;
+    height: 158px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.oldNew>.oldLeft>ul>li:nth-child(2),
+.oldNew>.oldLeft>ul>li:nth-child(4) {
+    margin-left: 24px;
+}
+
+.oldNew>.oldLeft>ul>li:nth-child(3),
+.oldNew>.oldLeft>ul>li:nth-child(4) {
+    margin-top: 5px;
+}
+
+.oldNew>.oldLeft>ul>li>p>a {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* 底部开始 */
+
+.footer {
+    width: 100%;
+    height: 280px;
+    background-color: #f6f6f6;
+}
+
+.foot {
+    height: 100%;
+}
+
+.foot .div1 {
+    width: 464px;
+    height: 250px;
+    margin-top: 30px;
+}
+
+.foot .div1 span {
+    display: block;
+    height: 44px;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.foot .div1 span h3 {
+    font-size: 18px;
+    line-height: 44px;
+    font-weight: 600;
+}
+
+.foot .div1 ul li {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.foot .div1 ul li a {
+    font-weight: 600;
+}
+.foot .div1 ul li a:hover {
+    color: #333;
+}
+.foot .div2 {
+    width: 600px;
+    height: 221px;
+    margin-top: 30px;
+}
+
+.foot .div2 ul li {
+    width: 198px;
+    height: 110px;
+    float: left;
+    margin-left: 2px;
+}
+
+.footer2 {
+    width: 100%;
+    height: 326px;
+    background-color: #ededed;
+}
+
+.footer2 ul {
+    margin: 40px 32px 0;
+}
+
+.footer2 ul>li:nth-child(1) {
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
+.footer2 ul li a {
+    font-size: 14px;
+}
+
+.footer3 {
+    width: 100%;
+    height: 130px;
+    background-color: #187ec6;
+}
+
+.footer3>.foot {
+    height: 130px;
+}
+
+.footer3>.foot>.text {
+    width: 603px;
+    height: 80px;
+    margin: 50px 0 0 20px;
+    font-size: 14px;
+    color: #7fabd8;
+}
+
+.footer3>.foot>ul {
+    /* width: 134px; */
+    height: 100px;
+}
+
+.footer3>.foot>ul>li {
+    margin-top: 30px;
+    float: right;
+}
+
+.footer3>.foot>ul>li:nth-child(1) {
+    margin-right: 20px;
+}
+
+.footer3>.foot>ul>li:nth-child(2) {
+    margin-right: 30px;
+}
+
+.footer3>.foot>ul>li>p {
+    font-size: 12px;
+    color: #a7c5e4;
+}

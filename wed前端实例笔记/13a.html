@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 1px solid;
+            margin: 0 auto;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        th,td{
+            width: 100px;
+            height: 40px;
+            padding: 10px;
+            text-align: center;
+        }
+        caption{
+            margin-bottom: 5px;
+        }
+        td{
+            padding: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>学生信息表</caption>
+        <thead>
+        <tr>
+            <td colspan="3">学号</td>
+            <!-- <td>姓名</td>  合并单元格必须先注释同行的右边单元格 -->
+            <!-- <td>性别</td> -->
+        </tr>
+    </thead>   
+        <tr>
+            <td>001</td>
+            <td>张三</td>
+            <td>男</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>李兰</td>
+            <td>女</td>
+        </tr>
+        <tr>
+            <td>003</td>
+            <td>李四</td>
+            <td>男</td>
+        </tr>
+    </table>
+</body>
+</html>

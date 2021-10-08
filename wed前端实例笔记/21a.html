@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            perspective: 1000px;
+        }
+        .box{
+            transform-style:preserve-3d ;
+            position: relative;
+            margin: 50px auto;
+            /* left: 50%; */
+            /* top: 50%; */
+            /* margin-left: -400px; */
+            width: 800px;
+            height: 800px;
+            border: 1px solid;
+            transform: rotateX(0deg) rotateY(60deg);
+        }
+        .box div{
+            position: absolute; 
+            width: 200px;
+            height: 200px;
+            font-size: 150px;
+            text-align: center;
+            line-height: 200px; 
+            left: 50%;
+            top: 50%;
+            margin-top: -100px;
+            margin-left: -100px;
+            /* opacity: .5; */
+            /* opacity: .5; 透明度*/
+        }
+        .box:hover div{
+            box-shadow: 0px 0px 10px currentColor;
+        }
+        .box .a1{
+            background:red ;
+            /* transform: translateZ(-100px); */
+            transform: translateZ(100px);
+        }
+        .box .a2{
+            background:green;
+            /* transform: translateZ(-50px); */
+            transform: rotateY(180deg) translateZ(100px);
+        }
+        .box .a3{
+            background: yellow;
+            /* transform: translateZ(0px); */
+            transform: rotateX(90deg) translateZ(100px);
+        }
+        .box .a4{
+            background:blue ;
+            /* transform: translateZ(50px); */
+            transform: rotateX(-90deg) translateZ(100px);
+        }
+        .box .a5{
+            background:orange ;
+            /* transform: translateZ(100px); */
+            transform:rotateY(90px) translateZ(100px);
+        }
+        .box .a6{
+            background: pink;
+            /* transform: translateZ(150px); */
+            transform:rotateY(-90px) translateZ(100px);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="a1">前</div>
+        <div class="a2">后</div>
+        <div class="a3">左</div>
+        <div class="a4">右</div>
+        <div class="a5">上</div>
+        <div class="a6">下</div>
+    </div>
+</body>
+</html>

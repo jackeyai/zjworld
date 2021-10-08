@@ -1,0 +1,525 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.warp {
+    width: 100%;
+}
+
+
+/* 导航 */
+
+.shounav {
+    margin: 0 auto;
+    width: 1190px;
+    height: 30px;
+    background-color: rgba(142, 204, 206, 0.514);
+    border: rgb(146, 146, 146) solid 2px;
+}
+
+.shounav ul {
+    margin: 0 auto;
+    width: 900px;
+    height: 30px;
+    background-color: rgb(197, 299, 230);
+}
+
+.shounav li {
+    margin-left: 48px;
+    width: 100px;
+    float: left;
+    line-height: 30px;
+    background-color: rgb(197, 299, 230);
+    font-weight: 400;
+    text-align: center;
+}
+.shounav a:hover{
+    display: inline-block;
+    font-weight: bold;
+    background-color: rgb(197,229,230);
+    line-height: 30px;
+    width: 50px;
+
+}
+
+
+/* 首屏图片 */
+
+.hear {
+    position: relative;
+    width: 1190px;
+    height: 350px;
+    border: rgb(7, 7, 6) solid 2px;
+    margin: 2px auto;
+}
+
+.hear>img {
+    width: 1190px;
+    height: 350px;
+}
+
+.sou {
+    position: relative;
+    width: 250px;
+    height: 50px;
+    top: -80px;
+    left: 900px;
+}
+
+.sou1 {
+    width: 150px;
+    height: 30px;
+    opacity: 0.7;
+}
+
+.sou2 {
+    width: 50px;
+    height: 34px;
+    color: #000;
+    opacity: 0.7;
+}
+
+
+/* 第二部 */
+
+.second {
+    margin: 4px auto;
+    width: 1190px;
+    height: 330px;
+    background-color: rgba(142, 204, 206, 0.514);
+    border: gray solid 2px;
+}
+
+
+/* 左分区 */
+
+.second .fl {
+    float: left;
+    width: 498px;
+    height: 326px;
+    border: solid 2px #fff;
+}
+
+.fltop1 {
+    width: 496px;
+    height: 40px;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    border: #fff solid 1px;
+}
+
+
+/* 下部分 */
+
+.fltoom {
+    width: 498px;
+    height: 288px;
+}
+
+.fltoom>div>p {
+    margin-left: 90px;
+}
+
+.user {
+    width: 200px;
+    height: 30px;
+    margin-top: 40px;
+}
+
+.passwrod {
+    margin-top: 30px;
+    margin-left: 7px;
+    width: 200px;
+    height: 30px;
+}
+
+input {
+    color: #000;
+}
+
+.biaodan {
+    margin: 20px 170px;
+    margin-left: 120px;
+}
+
+.choose1{
+margin-right: 60px;
+}
+.tijiao2,
+.tijiao3 {
+    width: 100px;
+    height: 30px;
+}
+
+.tijiao2 {
+    margin-left: 100px;
+}
+
+.tijiao3 {
+    margin-left: 60px;
+}
+
+
+/* 右分区 */
+
+.second .fr {
+    float: right;
+    width: 598px;
+    height: 328px;
+    border: #fff solid 1px;
+}
+
+.frtop {
+    width: 596px;
+    height: 40px;
+    border: #fff solid 1px;
+}
+
+.zuo {
+    float: left;
+    font-size: 24px;
+    line-height: 40px;
+    margin-left: 40px;
+}
+
+.you {
+    float: right;
+    font-size: 24px;
+    line-height: 40px;
+    margin-right: 30px;
+}
+
+
+/* 第二部分frtop的hover效果 */
+
+.fr>.frtop>span>a:hover {
+    color: rgb(74, 19, 161);
+    background-color: aqua;
+}
+
+
+/* 下部分 */
+
+.frtoom {
+    width: 596px;
+    height: 276px;
+    border: #fff solid 1px;
+}
+
+ol {
+    margin-top: 25px;
+}
+
+ol>li {
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 90px;
+}
+
+ol>span {
+    margin-top: -30px;
+    float: right;
+    margin-right: 40px;
+}
+
+ol>span>a>img {
+    height: 30px;
+    width: 30px;
+}
+
+.frboom>ol>li>a {
+    display: inline-block;
+    width: 430px;
+}
+
+.frboom>ol>li>a:hover {
+    font-size: 18px;
+    line-height: 30px;
+    background-color: aqua;
+    font-weight: bold;
+}
+
+
+/* 第三部分 */
+
+.third {
+    margin: 0 auto;
+    width: 1190px;
+    height: 360px;
+    border: #fff solid 2px;
+    background-color: rgb(133,217,219);
+    opacity: 0.7;
+}
+
+
+/* 第三部分top部分 */
+
+.third span>a:hover {
+    text-align: center;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    background-color: aqua;
+}
+
+
+/* 字体样式 */
+
+.third span {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+
+/* 布局 */
+
+.tlzuo1 {
+    margin-left: 30px;
+    float: left;
+}
+
+
+/* 第三部分左部 */
+
+.thridfl {
+    width: 300px;
+    height: 358px;
+    float: left;
+    border: #fff solid 1px;
+}
+
+
+/* 上 */
+
+.thridfl>.fltop3 {
+    height: 40px;
+    width: 300px;
+    border: rgb(234, 255, 43) solid 1px;
+}
+
+.tlyou1 {
+    float: right;
+    margin-right: 30px;
+}
+
+
+/* 下 */
+
+.thridfl>.fltoom3 {
+    height: 310px;
+    width: 300px;
+    border: rgb(255, 166, 0) solid 1px;
+}
+
+
+/* 图片部分 */
+
+.shangtu {
+    margin: 30px 20px;
+    width: 100px;
+}
+
+.xiatu {
+    margin: 0px 20px;
+    width: 100px;
+}
+
+
+/* 列部分 */
+
+.fltoom3>ul {
+    float: right;
+    margin-top: -200px;
+    margin-right: 50px;
+}
+
+.fltoom3>ul>li {
+    width: 50px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.fltoom3>ul>li>a {
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+}
+
+.fltoom3>ul>li>a:hover {
+    width: 50px;
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: aqua;
+}
+
+
+/* 第三部分中部 */
+
+.thridcn {
+    float: left;
+    margin-left: 94px;
+    width: 400px;
+    height: 358px;
+    border: #fff solid 1px;
+}
+
+
+/* 上 */
+
+.thridcn>.cntop3 {
+    height: 40px;
+    width: 400px;
+    border: rgb(234, 255, 43) solid 1px;
+}
+
+
+/* 下 */
+
+.thridcn>.cntoom3 {
+    height: 310px;
+    width: 400px;
+    border: rgb(255, 166, 0) solid 1px;
+}
+
+.thridcn>.cntoom3>a>img {
+    float: left;
+    margin: 30px 10px 0px 30px;
+    width: 200px;
+}
+
+.thridcn>.cntoom3>.text {
+    text-indent: 2em;
+    margin: 30px 20px 0px 30px;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.thridcn>.cntoom3>.text>a:hover {
+    font-weight: bold;
+    background-color: aqua;
+}
+
+
+/* 第三部分右部 */
+
+.thridfr {
+    float: right;
+    width: 300px;
+    height: 358px;
+    border: #fff solid 1px;
+}
+
+
+/* 上 */
+
+.thridfr>.frtop3 {
+    height: 40px;
+    width: 300px;
+    border: rgb(234, 255, 43) solid 1px;
+}
+
+
+/* 下 */
+
+.thridfr>.frtoom3 {
+    height: 310px;
+    width: 300px;
+    border: rgb(255, 166, 0) solid 1px;
+}
+
+.thridfr>.frtoom3>a>img {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 260px;
+    height: 180px;
+}
+
+.thridfr>.frtoom3>.wenan>ul {
+    width: 300px;
+    height: 100px;
+}
+
+.thridfr>.frtoom3>.wenan>ul>li {
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.thridfr>.frtoom3>.wenan>ul>li>a:hover {
+    font-weight: bold;
+    background-color: aqua;
+}
+
+
+/* 第四部分 */
+
+.four {
+    width: 1190px;
+    height: 200px;
+    margin: 0 auto;
+    border: solid #fff 2px;
+    background-color: rgb(127, 240, 255);
+}
+
+
+/* 第四部分上部 */
+
+.four>.fourtop {
+    width: 1190px;
+    height: 30px;
+    background-color: rgb(197,299,230);
+}
+
+.four>.fourtop>span {
+    width: 80px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+}
+
+.four>.fourtop>.fourfl {
+    margin-left: 40px;
+    float: left;
+}
+
+.four>.fourtop>.fourfr {
+    margin-right: 30px;
+    float: right;
+}
+
+.fourcn>ul {
+    padding: 10px 250px;
+}
+
+.fourcn li {
+    margin-top: 40px;
+    float: left;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.fourcn a:hover {
+    color: blueviolet;
+}
+
+.four>.fourboom {
+    margin-top: 150px;
+    width: 1190px;
+    height: 30px;
+    background-color: rgb(197,199,230);
+    text-align: center;
+    line-height: 30px;
+}

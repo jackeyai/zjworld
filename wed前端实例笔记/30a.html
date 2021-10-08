@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            font-family: '黑体',sans-serif;
+            letter-spacing: 1px;
+            text-align: center;
+            border: 2px solid rgba(0, 0, 200, 6);
+            background: rgba(0, 0, 200, 3);
+            box-shadow: 1px 1px 2px rgba(0, 0, 200, 4);
+            border-radius: 10px;
+            padding: 3px 10xp;
+            display: inline-block;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- onclik 单击 
+    onmouseover 鼠标滑过/悬停
+    onmouseout  鼠标划开
+    onfocus  获取焦点
+    onblus   失去焦点
+    onsubmit  表单提交
+    onreset   表单重置-->
+    <p>玩家一：小明</p>
+    <script>
+        const para=document.querySelector('p');
+        function updateName(){
+            let name=prompt('输入一个新的名字: ');
+            para.textContent='玩家1：'+name;
+        }
+    </script>
+</body>
+</html>

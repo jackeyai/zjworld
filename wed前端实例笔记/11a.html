@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .clearfix::after{
+            content: none;
+            display: block;
+            clear: both;
+        }
+        body 
+        /* 一   .clearfix::after{
+                content: ':'
+                display: block;
+                clear: both;
+                 }清除浮动 */
+        body,ul{
+            margin: 0;
+            padding: 0;
+            font-size: 25px ;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        #a1{
+            width: 700px;
+            margin: 0 auto0;
+            background-color: rgb(3, 3, 3);
+            /* overflow: hidden; 超出部分隐藏*/
+            /*二  overflow: hidden  清除浮动影响*/
+        }
+        #a1 li{
+            width: 25% ;
+            float: left;
+        }
+        #a1 li a {
+            display: block;
+            /* padding: 10px  20px; */
+            width: 150px;
+            height: 100;
+            background-color: rgb(16, 13, 214);
+            text-align: center;
+            /* text-align: center;  文本居中 */
+            line-height: 80px;
+        }
+        #a1 li a :hover{
+            background-color: rgb(5, 5, 5);
+        }
+        #list1 dt{
+           float: left;
+        }
+        #list1 dt::after{
+            content: ':';
+        }
+        #list1 dd{
+            float: left;
+        }
+        /* background: url();  插入背景图片*/
+    </style>
+</head>
+<body>
+    <ul id="a1" class="clearfix">
+    <li><a href="#">首页</a></li>
+    <li><a href="#公司介绍">公司介绍</a></li>
+    <li><a href="#产品介绍">产品介绍</a></li>
+    <li><a href="#联系我们">联系我们</a></li>
+    </ul>
+    <!-- ul  无序列表 -->
+    <!-- ol  有序列表 -->
+    <!-- li  列表标签 -->
+    <!-- <a href=""></a> 超链接 -->
+    <dl id="list1">
+        <dt>HTML</dt>
+        <dd>超文本标记语言</dd>
+        <dt>css</dt>
+        <dd>层叠样式表</dd>
+    </dl>
+    <div>1Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus a illo fugit doloribus eum placeat, ipsam, vero aut obcaecati minima repudiandae incidunt harum ullam neque, facilis quos porro maxime odio.</div>
+    <div id="公司介绍">2Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aliquam quam velit! Ad doloremque est alias enim? Mollitia similique in dignissimos voluptatum! Distinctio doloremque saepe laboriosam recusandae, fugiat natus ex?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aliquam quam velit! Ad doloremque est alias enim? Mollitia similique in dignissimos voluptatum! Distinctio doloremque saepe laboriosam recusandae, fugiat natus ex?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aliquam quam velit! Ad doloremque est alias enim? Mollitia similique in dignissimos voluptatum! Distinctio doloremque saepe laboriosam recusandae, fugiat natus ex?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aliquam quam velit! Ad doloremque est alias enim? Mollitia similique in dignissimos voluptatum! Distinctio doloremque saepe laboriosam recusandae, fugiat natus ex?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aliquam quam velit! Ad doloremque est alias enim? Mollitia similique in dignissimos voluptatum! Distinctio doloremque saepe laboriosam recusandae, fugiat natus ex?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aliquam quam velit! Ad doloremque est alias enim? Mollitia similique in dignissimos voluptatum! Distinctio doloremque saepe laboriosam recusandae, fugiat natus ex?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aliquam quam velit! Ad doloremque est alias enim? Mollitia similique in dignissimos voluptatum! Distinctio doloremque saepe laboriosam recusandae, fugiat natus ex?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aliquam quam velit! Ad doloremque est alias enim? Mollitia similique in dignissimos voluptatum! Distinctio doloremque saepe laboriosam recusandae, fugiat natus ex?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aliquam quam velit! Ad doloremque est alias enim? Mollitia similique in dignissimos voluptatum! Distinctio doloremque saepe laboriosam recusandae, fugiat natus ex?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aliquam quam velit! Ad doloremque est alias enim? Mollitia similique in dignissimos voluptatum! Distinctio doloremque saepe laboriosam recusandae, fugiat natus ex?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aliquam quam velit! Ad doloremque est alias enim? Mollitia similique in dignissimos voluptatum! Distinctio doloremque saepe laboriosam recusandae, fugiat natus ex?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aliquam quam velit! Ad doloremque est alias enim? Mollitia similique in dignissimos voluptatum! Distinctio doloremque saepe laboriosam recusandae, fugiat natus ex? 
+        <a href="#">返回顶端</a>
+    </div>
+    <div id="产品介绍">
+       3 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, dolorum cupiditate alias eaque eveniet consectetur explicabo, assumenda quisquam soluta nemo placeat optio! Minus aut nam officia quis magni tenetur? Ullam.
+    </div>
+
+</body>
+</html>

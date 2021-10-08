@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .cleafix::after{ 
+            content: '';
+            display: block;
+            clear: both;
+        }   清浮动效果*/
+        .a{
+            border: 5px solid;
+            float: left; 
+            /* justify-content: space-around; 平均分配框外距离*/
+        }
+        .b, .c, .d{
+            float: left;
+        }
+        .b{
+            width: 200px;
+            height: 150px;
+            background: red;
+            float: left;
+        }
+        .c{
+            width: 150px;
+            height: 100px;
+            background:blue;
+            float: right;
+        }
+        .d{
+            width: 220px;
+            height: 130px;
+            float: left;
+            background: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div class="b">1111111</div>
+        <div class="c">2222222</div>
+        <div class="d">3333333</div>
+    </div>
+</body>
+</html>

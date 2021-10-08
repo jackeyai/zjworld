@@ -1,0 +1,28 @@
+.warp{
+      width: 100%;
+}   
+.hear{
+    width: 1190px;
+    height: 300px;
+    border: rgb(7, 7, 6) solid 3px;
+    margin:0% auto;
+}
+.hear img{
+    width: 1190px;
+    height: 300px;
+}
+.nav{
+    width: 1190px;
+    height: 100px;
+    border: rgb(14, 13, 13) solid 3px;
+    margin: 0% auto;
+}
+.two{
+    width: 1190px; 
+    height: 400px;
+    border: rgb(14, 13, 13) solid 3px;
+    margin: 3px auto;
+}
+.two .twofl{
+    float: left k09          ; 
+}

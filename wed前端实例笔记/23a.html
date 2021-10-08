@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            margin: 125px auto;
+            width: 500px;
+            height: 500px;
+            border: 5px solid;
+            position: relative;
+            border-radius: 50%;
+            animation: yuan 1s infinite linear;
+            /* linear保持匀速运动   infinite保持一直运动 alternate从开头到结尾从结尾到到头*/
+        }
+        .b{
+            width: 50px;
+            height: 50px;
+            background: red;
+            position: absolute;
+            /* margin-left: 225px; */
+            left: 50%;
+            margin-left: -25px;
+            border-radius: 50%;
+        }
+        @keyframes yuan{
+            0% {
+                transform: rotate(0deg);
+            }
+            25%{
+                transform: rotate(90deg);
+            }
+            50%{
+                transform: rotate(180deg);
+            }
+            75%{
+                transform: rotate(270deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div class="b"></div>
+    </div>
+</body>
+</html>

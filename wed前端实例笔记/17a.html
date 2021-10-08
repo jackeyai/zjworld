@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            background-color: aqua;
+            width: 300px;
+            height: 300px;
+            border-radius: 10% 30% 50% 10%;
+            background: url(banner.jpg);
+            /* border-radius: 50%; */
+            /* overflow: visible; 内容不会修剪，不会呈现在文本框内*/
+            /* overflow: hidden; 内容会被修剪会，呈现在文本框内*/
+            /* white-space: normal; 文本不还行显示*/
+            /* white-space: pre; 文本保留空白*/
+            /* text-indent: ; 首行缩进*/
+        }
+        .b{
+            background-color: aqua;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            box-shadow: 15px 15px 15px 15px rgb(51, 28, 253);
+            text-align: center;
+            line-height: 300px;
+            /* border-radius: 圆角边框*/
+            /* box-shadow:inset 15px 15px black;加在里面阴影 阴影效果 x偏移量 y偏移量 模糊半径 阴影颜色*/
+        }
+        /* 例子  .b:hover{ 
+                 box-shadow: 15px 15px 15px 15px rgb(51, 28, 253);
+                  }hover鼠标滑过的效果标签*/
+        /* hover鼠标滑过的效果标签 */
+        /* opacity 透明度标签*/
+        .c{
+            border: 1px solid ;
+            width: 500px;
+            height: 100px;
+            overflow: hidden;
+            
+            /* padding: 50px; */
+        } 
+        .d{
+            border: 1px solid ;
+            width: 500px;
+            height: 100px;
+            overflow:scroll;
+        }
+        /* transition: ;  过度效果写时间标签
+            持续时间 延迟时间 属性 */
+    </style>
+</head>
+<body>
+    <div class="a" hiddentext>河北软件职业技术学院</div>
+    <!-- <div class="a" hiddentext>冯伟冯伟冯伟</div> 插入背景图片时，将div中的文字隐藏并将文字显示在背景图片里-->
+    <p class="b">污染光环好好好</p>
+    <div class="c">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat neque quia laborum quam natus fuga aliquam sequi maiores, distinctio voluptates omnis qui nobis, doloribus ut corrupti nisi quibusdam magnam. Corrupti?</div>
+    <div class="d">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident dicta voluptatibus iusto eaque eius numquam aliquid eum iure in, vitae et. Est ducimus itaque facilis voluptatum a, saepe fugiat nihil.</div>
+</body>
+</html>
